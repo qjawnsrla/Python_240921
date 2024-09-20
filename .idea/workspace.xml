@@ -1,18 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="264a4413-46f7-4f95-a0f7-69b840e29f18" name="변경" comment="" />
+    <list default="true" id="264a4413-46f7-4f95-a0f7-69b840e29f18" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/다중상속.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/주문 관리 시스템 예제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/추상화.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TV만들기.py" beforeDir="false" afterPath="$PROJECT_DIR$/TV만들기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TV상속오버라이딩.py" beforeDir="false" afterPath="$PROJECT_DIR$/TV상속오버라이딩.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/연산자 오버로딩.py" beforeDir="false" afterPath="$PROJECT_DIR$/연산자 오버로딩.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/접근제한자.py" beforeDir="false" afterPath="$PROJECT_DIR$/접근제한자.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/정적메소드.py" beforeDir="false" afterPath="$PROJECT_DIR$/정적메소드.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "qjawnsrla"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/qjawnsrla/Python_240920.git",
+    "accountId": "7ec16aba-79e4-4404-bc92-d547e1feb70d"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2mJOHw6bijMlh4tbG2rmlpwnz0q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,8 +54,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.TV만들기.executor": "Run",
+    "Python.TV상속오버라이딩.executor": "Run",
+    "Python.다중상속.executor": "Run",
+    "Python.연산자 오버로딩.executor": "Run",
+    "Python.접근제한자.executor": "Run",
+    "Python.정적메소드.executor": "Run",
+    "Python.주문 관리 시스템 예제.executor": "Run",
+    "Python.추상화.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -30,8 +75,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
-        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.22855.92" />
+        <option value="bundled-python-sdk-b068d85d1acf-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.22855.92" />
       </set>
     </attachedChunks>
   </component>
@@ -43,11 +88,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726791127758</updated>
-      <workItem from="1726791128836" duration="5000" />
+      <workItem from="1726791128836" duration="4248000" />
+      <workItem from="1726798005145" duration="5535000" />
+      <workItem from="1726807919442" duration="13759000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/연산자 오버로딩.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_240920$_.coverage" NAME="연산자 오버로딩 커버리지 결과" MODIFIED="1726799576841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_240920$.coverage" NAME="다중상속 커버리지 결과" MODIFIED="1726810479469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_240920$TV.coverage" NAME="TV상속오버라이딩 커버리지 결과" MODIFIED="1726798333741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_240920$___.coverage" NAME="주문 관리 시스템 예제 커버리지 결과" MODIFIED="1726820497094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
