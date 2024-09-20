@@ -77,16 +77,19 @@ while True:
         else:
             print("제품 목록이 비어 있습니다.")
     elif num == "5":
-        tax_rate_input = input("세금 비율을 소수점으로 입력 (예: 0.1 = 10%): ")
-        try:
-            tax_rate = decimal.Decimal(tax_rate_input)
-            final_price = order.calculate_final_price(tax_rate)
-            for prod in order.products:
-                print(f"{prod.get_name()}의 세금 {prod.get_price()*tax_rate} ", end="")
-                print()
-            print(f"세금 포함 최종 가격: {final_price}")
-        except decimal.InvalidOperation:
-            print("잘못된 세율 입력")
+        while True:
+            tax_rate_input = float(input("세금 비율을 소수점으로 입력 (예: 0.1 = 10%): "))
+            if 0.0 <= tax_rate_input < 1.0:
+                break
+            else:
+                print("잘못된 세율 입력")
+        tax_rate_d = decimal.Decimal(tax_rate_input)
+        tax_rate = tax_rate_d.quantize(decimal.Decimal('0.01'), rounding=decimal.ROUND_HALF_UP)
+        t = order.calculate_final_price(tax_rate)
+        for prod in order.products:
+            print(f"{prod.get_name()}의 세금 {prod.get_price()*tax_rate} ", end="")
+            print()
+        print(f"세금 포함 최종 가격: {t}")
     elif num == "6":
         print("프로그램 종료")
         break
